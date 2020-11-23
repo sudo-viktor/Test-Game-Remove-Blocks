@@ -1,0 +1,91 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.game{
+    flex: 4;
+    min-width: 50em;
+}
+
+.btn{
+    width: 8em;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-right: 2em;
+}
+
+.play, .pause{
+    position: absolute;
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+.new{
+    margin-left: 10em;
+}
+
+.menu{
+    display: flex;
+    flex: 4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    font-size: 12px;
+}
+
+#point, #time{
+    width: 4em;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.dash{
+    background-color: rgb(255, 130, 130);
+    flex: 1;
+    margin-left: 2em;
+    height: 80vh;
+    min-width: 15em;
+    border: 2px solid rgb(0, 0, 0);
+    align-items: center;
+}
+
+.game-field{
+    height: 80vh;
+    margin-top: 2em;
+    border: 2px solid black;
+}
+
+.dash p{
+    font-size: 30px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.block{
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.26);
+}
+
+.dash .result-chd{
+    font-size: 25px;
+    margin-left: 1.2em;
+    word-wrap: break-word;
+}

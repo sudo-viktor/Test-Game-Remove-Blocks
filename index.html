@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+    <div class='game'>
+        <div><h1>Remove Blocks</h1></div>
+        <div class='menu'>
+            <div>
+                <button class="btn pause" id='btn_pause'>pause</button>
+                <button class="btn play active" id='btn_start'>start</button>
+                <button class="btn new" id='btn_newGame'>new game</button>
+            </div>
+            <div class='info'>
+                <span>Points</span>
+                <input type="text" name="point" id="point" value="0">
+            </div>
+            <div class="info">
+                <span>Time left</span>
+                <input type="text" name="time" id="time" value="1:00">
+            </div>
+        </div>
+        <div class='game-field'></div>
+    </div>
+    <!-- Таблица результатов -->
+    <div class='dash'>
+        <p align='center'>Result</p>
+        <div class='result'></div>
+    </div>
+</div>
+</body>
+</html>
